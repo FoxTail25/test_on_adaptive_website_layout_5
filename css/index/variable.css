@@ -1,9 +1,16 @@
 :root {
-	--color1_white: #fff;
-	--color2_bg_header: #EFF4F8;
-	--color3_bg_button: #38BFF2;
+  --color1_white: #fff;
+  --color2_bg_header: #eff4f8;
+  --color3_bg_button: #38bff2;
+  --color4_font_head_baner: #f15525;
+  --color5_stroke: #dedede;
 
-	* {
-		font-family: "Montserrat", serif;;
-	}
+  * {
+    font-family: "Montserrat", serif;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
 }

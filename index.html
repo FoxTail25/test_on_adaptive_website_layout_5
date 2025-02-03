@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+
 	<!-- Подключение шрифтов -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,15 +24,29 @@
 		<div class="container">
 			<div class="header">
 				<div class="logo"></div>
-				<button class="sing_in">Войти</button>
+				<button class="sing_in">&#8594; Войти</button>
 				<button class="mobil_menu"></button>
 			</div>
-			<div class="header__banner">
-				<h1 class="header__banner__text">
-					Школа {программирования} <br>
-					для тех, кому нужны реальные навыки,<br>
-					а не просто сертификат
-				</h1>
+			<div class="head__banner">
+				<div class="side_1">
+
+					<h1 class="head__banner__text">
+						Школа <span class="red">{</span><span class="bold">программирования</span><span
+							class="red">}</span> <br>
+						для тех, кому нужны реальные навыки,<br>
+						а не просто сертификат
+					</h1>
+					<div class="head__banner__stroke"></div>
+					<p class="go_test">
+						Пройдите тестирование, чтобы получить<br> доступ к бесплатным вводным урокам
+					</p>
+					<button class="going_testing">
+						Пройти тестирование <img src="./img/icons/giong_test_arrow.svg" alt="">
+					</button>
+				</div>
+				<div class="side_2">
+					<img src="./img/head_banner_comp.png" alt="" class="head_banner_img">
+				</div>
 			</div>
 		</div>
 	</header>
