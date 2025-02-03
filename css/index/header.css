@@ -1,5 +1,5 @@
 header {
-  background: var(--color2_bg_header);
+  /* background: var(--color2_bg_header); */
   padding-top: 6px;
 
   .header {
@@ -44,66 +44,83 @@ header {
 
   .head__banner {
     padding-top: 24px;
+    padding-bottom: 92px;
 
-    .head__banner__text {
-      font-size: 22px;
-      margin: 0 auto;
+    .side_1 {
+      .head__banner__text {
+        margin: 0 auto;
+        width: 300px;
 
-      text-align: center;
+        font-size: 22px;
+        text-align: center;
+        font-weight: 500;
 
-      font-weight: 500;
-
-      span.red {
-        color: var(--color4_font_head_baner);
+        span.red {
+          color: var(--color4_font_head_baner);
+        }
+        span.bold {
+          font-weight: bold;
+        }
       }
-      span.bold {
-        font-weight: bold;
+      .head__banner__stroke {
+        border-bottom: 1px solid var(--color5_stroke);
+        width: 300px;
+        height: 1px;
+        padding-top: 18px;
+        margin: 0 auto;
+      }
+      .go_test {
+        font-size: 12px;
+        text-align: center;
+        padding-top: 9px;
+      }
+      button.going_testing {
+        background: var(--color4_font_head_baner);
+        width: 300px;
+        height: 70px;
+        border-radius: 82px;
+
+        margin: 0 auto;
+        margin-top: 21px;
+
+        border: none;
+        color: var(--color1_white);
+        font-size: 18px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 13px;
+          height: 13px;
+          margin-left: 5px;
+        }
       }
     }
-    .head__banner__stroke {
-      border-bottom: 1px solid var(--color5_stroke);
-      width: 300px;
-      height: 1px;
-      padding-top: 18px;
-      margin: 0 auto;
-    }
-    .go_test {
-      font-size: 12px;
-      text-align: center;
-      padding-top: 9px;
-    }
-    button.going_testing {
-      background: var(--color4_font_head_baner);
-      width: 300px;
-      height: 70px;
-      border-radius:82px;
-      
-      margin: 0 auto;
-      margin-top: 21px;
-
-      border:none;
-      color:var(--color1_white);
-      font-size: 18px;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      img {
-        width: 13px;
-        height: 13px;
-        margin-left: 5px;
-      }
-    }
-
     .side_2 {
       padding-top: 63px;
       width: 100%;
+      position: relative;
+
       img {
         display: block;
         margin: 0 auto;
         width: 210px;
         height: 220px;
+      }
+      .header__background {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        .elips_1 {
+          width: 257px;
+          height: 252px;
+          border-radius: 50%;
+          background: blue;
+        }
       }
     }
   }
