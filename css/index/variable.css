@@ -1,0 +1,9 @@
+:root {
+	--color1_white: #fff;
+	--color2_bg_header: #EFF4F8;
+	--color3_bg_button: #38BFF2;
+
+	* {
+		font-family: "Montserrat", serif;;
+	}
+}

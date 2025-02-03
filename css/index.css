@@ -1,1 +1,10 @@
 @import url("./normalize.css");
+@import url("./index/variable.css");
+@import url("./index/header.css");
+
+
+
+.container {
+  max-width: 1160px;
+  padding: 0 10px;
+}
