@@ -1,0 +1,27 @@
+.width_technology {
+	h2 {
+		text-align: center;
+		padding-top: 13px;
+	}
+
+	.list_technology {
+		margin-top:20px;
+
+		.tlist_item {
+			font-size: 14px;
+			height: 45px;
+
+			display: flex;
+			align-items:center;
+			justify-content: center;
+		}
+		.blue {
+			background-color: #5096FF;
+			width: 267px;
+		}
+		.orang {
+			background-color: #FFB359;
+			width: 99px;
+		}
+	}
+}
