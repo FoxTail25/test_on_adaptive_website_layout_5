@@ -4,6 +4,10 @@
   --color3_bg_button: #38bff2;
   --color4_font_head_baner: #f15525;
   --color5_stroke: #dedede;
+  --color6_font_main_color:#22253B;
+  --color7_bg_learn_card:#EAF2F5;
+  --color7_bg_footer:#F8F7FC;
+
 
   * {
     font-family: "Montserrat", serif;

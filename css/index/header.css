@@ -77,29 +77,7 @@ header {
         text-align: center;
         padding-top: 9px;
       }
-      button.going_testing {
-        background: var(--color4_font_head_baner);
-        width: 300px;
-        height: 70px;
-        border-radius: 82px;
 
-        margin: 0 auto;
-        margin-top: 21px;
-
-        border: none;
-        color: var(--color1_white);
-        font-size: 18px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        img {
-          width: 13px;
-          height: 13px;
-          margin-left: 5px;
-        }
-      }
     }
     .side_2 {
       padding-top: 63px;

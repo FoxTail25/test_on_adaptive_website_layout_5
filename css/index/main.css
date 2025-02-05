@@ -1,27 +1,232 @@
 .width_technology {
-	h2 {
-		text-align: center;
-		padding-top: 13px;
-	}
+  h2 {
+    text-align: center;
+    padding-top: 13px;
+  }
 
-	.list_technology {
-		margin-top:20px;
+  .technology_list {
+    background-color: #eaf2f5;
+    border-radius: 30px;
+    width: 300px;
 
-		.tlist_item {
-			font-size: 14px;
-			height: 45px;
+    margin: 0 auto;
+    margin-top: 13px;
+    padding: 17px 16px 18px 17px;
 
-			display: flex;
-			align-items:center;
-			justify-content: center;
-		}
-		.blue {
-			background-color: #5096FF;
-			width: 267px;
-		}
-		.orang {
-			background-color: #FFB359;
-			width: 99px;
-		}
-	}
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .tlist_item {
+      font-size: 14px;
+      font-weight: 400;
+      height: 45px;
+      border-radius: 44px;
+
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      color: var(--color1_white);
+
+      &:not(:first-child) {
+        margin-top: 17px;
+      }
+    }
+    .blue {
+      background-color: #5096ff;
+      width: 267px;
+    }
+    .orang {
+      background-color: #ffb359;
+      width: 99px;
+    }
+    .red {
+      background-color: #ff6f50;
+      width: 160px;
+    }
+    .green {
+      background-color: #4bd071;
+      width: 267px;
+    }
+    .light_blue {
+      background-color: #50c0ff;
+      width: 267px;
+    }
+    .gray {
+      background-color: #4b77b9;
+      width: 129px;
+    }
+    .lilac {
+      background-color: #af93ff;
+      width: 129px;
+    }
+  }
+}
+
+.learn_in_YtYt {
+  margin: 0 auto;
+  margin-top: 26px;
+  width: 300px;
+
+  h2 {
+    font-size: 24px;
+    font-weight: 400px;
+    text-align: center;
+  }
+
+  .learn_in_YtYt__card_block {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .card {
+      box-sizing: border-box;
+
+      width: 145px;
+      height: 175px;
+      margin-top: 10px;
+
+      border-radius: 20px;
+      background: var(--color7_bg_learn_card);
+
+      text-align: center;
+      font-weight: 400;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      &:nth-child(3),
+      &:nth-child(4) {
+        height: 155px;
+      }
+
+      &:last-child {
+        width: 300px;
+        height: 86px;
+
+        flex-direction: row;
+        align-items: center;
+
+        padding-left: 45px;
+        padding-right: 47px;
+
+        .text_block {
+          width: 154px;
+          text-align: left;
+        }
+      }
+
+      h4 {
+        font-size: 12px;
+        max-width: 128px;
+      }
+
+      p {
+        font-size: 9px;
+      }
+    }
+    .many_practice {
+      padding-top: 24px;
+      padding-bottom: 20px;
+      margin-top: 0;
+    }
+    .direct_connection {
+      padding-top: 25px;
+      padding-bottom: 23px;
+      margin-top: 0;
+      p {
+        padding: 0 23px;
+      }
+    }
+    .simple_statement {
+      padding-top: 27px;
+      padding-bottom: 10px;
+      h4 {
+        max-width: none;
+      }
+      p {
+        padding: 0 7px;
+      }
+    }
+    .flexible_schedule {
+      padding-top: 24px;
+      padding-bottom: 10px;
+      p {
+        padding: 0 17px;
+      }
+    }
+    .modern_techniques {
+      padding-top: 25px;
+      padding-bottom: 19px;
+      h4 {
+        max-width: none;
+      }
+      p {
+        padding: 0 12px;
+      }
+    }
+    .flexible_payment {
+      padding-top: 22px;
+      padding-bottom: 15px;
+      h4 {
+        max-width: none;
+      }
+      p {
+        padding: 0 12px;
+      }
+    }
+  }
+}
+
+.tuition_fees {
+  margin-top: 39px;
+  h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .banner_blocks {
+    margin-top: 28px;
+    text-align: center;
+
+    .banner {
+      margin: 0 auto;
+      width: 248px;
+      p {
+        padding-top: 12px;
+        font-size: 12px;
+        line-height: 17px;
+      }
+      &:not(:first-child) {
+        margin-top: 21px;
+      }
+    }
+    .banner_block_2 {
+      margin-top: 33px;
+	  padding-bottom: 18px;
+      padding-top: 42px;
+
+      border: none;
+      border-radius: 30px;
+
+      background: var(--color7_bg_learn_card);
+
+      p {
+        font-size: 12px;
+        line-height: 22px;
+        margin: 21px 10px 0;
+      }
+      .start_learning {
+        width: 257px;
+        height: 60px;
+        margin-top: 13px;
+      }
+	  
+    }
+  }
 }
