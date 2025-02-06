@@ -58,10 +58,31 @@ footer {
   }
   .block_2 {
 
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 32px;
+
 	  .ip_info {
 		  margin-top: 35px;
 		  text-align: center;
 		  line-height: 23px;
 		}
 	}
+  .block_3 {
+    
+    margin-top: 25px;
+    color: #8E8E8E;
+    text-align: center;
+    line-height: 23px;
+    font-size: 12px;
+
+    padding-bottom: 27px;
+
+    :not(:first-child){
+      color: var(--color4_font_head_baner);
+      margin-top: 13px;
+    }
+    :last-child {
+      margin-top: 6px;
+    }
+  }
 }
