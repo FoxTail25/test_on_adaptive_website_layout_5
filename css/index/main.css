@@ -207,9 +207,11 @@
       }
     }
     .banner_block_2 {
+      margin: 0 auto;
       margin-top: 33px;
-	  padding-bottom: 18px;
+      padding-bottom: 18px;
       padding-top: 42px;
+      width: 300px;
 
       border: none;
       border-radius: 30px;
@@ -219,14 +221,13 @@
       p {
         font-size: 12px;
         line-height: 22px;
-        margin: 21px 10px 0;
+        margin: 21px 17px 0;
       }
       .start_learning {
         width: 257px;
         height: 60px;
         margin-top: 13px;
       }
-	  
     }
   }
 }
