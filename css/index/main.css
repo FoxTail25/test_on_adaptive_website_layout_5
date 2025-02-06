@@ -1,4 +1,7 @@
 .width_technology {
+  background:var(--color1_white);
+    /* width: 320px; */
+  margin: 0 auto;
   h2 {
     text-align: center;
     padding-top: 13px;
@@ -67,21 +70,32 @@
 }
 
 .learn_in_YtYt {
+  padding-top: 26px; 
+  background-color:var(--color1_white);
+  /* border-radius:0px 0px 30px 30px; */
+  border-bottom-left-radius: 25px 17px;
+  border-bottom-right-radius: 25px 17px;
+  /* width: 320px; */
   margin: 0 auto;
-  margin-top: 26px;
-  width: 300px;
-
+  
   h2 {
     font-size: 24px;
     font-weight: 400px;
     text-align: center;
+    width: 300px;
+    margin: 0 auto;
   }
 
   .learn_in_YtYt__card_block {
+    margin: 0 auto;
+    width: 300px;
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    padding-bottom: 22px;
+
+    
 
     .card {
       box-sizing: border-box;
