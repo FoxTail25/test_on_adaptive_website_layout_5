@@ -1,4 +1,4 @@
-/* 
+
   .header_bg {
     position: absolute;
     top: calc(50% + 140px);
@@ -58,7 +58,7 @@
       height: 251px;
       background: rgb(250, 253, 253);
     }
-  } */
+  }
 
 /* footer {
 	background: var(--color7_bg_footer);
