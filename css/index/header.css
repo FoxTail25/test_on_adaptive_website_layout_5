@@ -1,5 +1,4 @@
 header {
-  /* background: var(--color2_bg_header); */
   position: relative;
   overflow: hidden;
 
@@ -105,7 +104,7 @@ header {
   }
 
   .mobil_menu {
-    /* display: none; */
+    display: none;
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -148,10 +147,15 @@ header {
           color: #22253b;
         }
       }
-      img {
+      #mobil_menu_close_btn {
         position: absolute;
         top: 25px;
         right: 18px;
+        width: 14px;
+        height: 14px;
+        display: flex;
+        background:url(../../img/icons/close_mobil_menu.svg);
+        border:none;
       }
       button.sing_in {
         width: 132px;
