@@ -7,7 +7,7 @@ header {
   padding-top: 6px;
 
   .header {
-    margin: 0 auto;
+    margin: 0 10px;
     background-color: var(--color1_white);
     height: 41px;
     padding-left: 14px;
