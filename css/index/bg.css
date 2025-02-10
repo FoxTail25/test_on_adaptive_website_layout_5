@@ -20,9 +20,13 @@ body {
   width: 1160px;
   height: 3590px;
   overflow: hidden;
-
+  
   left:50%;
   transform:translate(-50%, 0px);
+  @media (min-width:1200px) {
+    height: 3190px;
+    
+  }
 }
 .circle {
   position: absolute;
@@ -98,24 +102,7 @@ body {
     }
   }
 }
-/* .up_group_desctop {
-  display: none;
-    position: absolute;
-  width: inherit;
-  height: 50%;
-  top: -11%;
-  left: -5px;
-  box-sizing: border-box;
 
-  @media (min-width:1200px) {
-    display: block;
-  }
-  .up_desc_1 {
-    width: 399px;
-    height: 399px;
-    background: red;
-  }
-} */
 .down_group {
   position: absolute;
   width: inherit;
@@ -124,6 +111,9 @@ body {
   left: -8px;
   box-sizing: border-box;
   border: none;
+  @media (min-width:1200px) {
+    bottom: 535px;
+  }
 
   .down_1 {
     width: 2011px;

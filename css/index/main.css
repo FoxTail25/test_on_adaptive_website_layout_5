@@ -18,6 +18,8 @@ main {
     @media (min-width: 1200px) {
       font-size: 46px;
       width: auto;
+      padding-top: 45px;
+      font-weight: 400;
     }
   }
   .techno_block {
@@ -33,6 +35,7 @@ main {
       padding-right: 104px;
       border-radius: 48px;
       padding-top: 42px;
+      margin-top: 40px;
       /* align-items:center; */
     }
 
@@ -160,11 +163,12 @@ main {
 .learn_in_YtYt {
   padding-top: 26px;
   background-color: var(--color1_white);
-  /* border-radius:0px 0px 30px 30px; */
   border-bottom-left-radius: 25px 17px;
   border-bottom-right-radius: 25px 17px;
-  /* width: 320px; */
   margin: 0 auto;
+  @media (min-width: 1200px) {
+    padding-top: 84px;
+  }
 
   h2 {
     font-size: 24px;
@@ -172,6 +176,11 @@ main {
     text-align: center;
     width: 300px;
     margin: 0 auto;
+    @media (min-width: 1200px) {
+      font-size: 46px;
+      width: auto;
+      font-weight: 400;
+    }
   }
 
   .learn_in_YtYt__card_block {
@@ -182,6 +191,13 @@ main {
     justify-content: space-around;
     flex-wrap: wrap;
     padding-bottom: 22px;
+    @media (min-width: 1200px) {
+      margin-top: 35px;
+      width: 1160px;
+      justify-content: center;
+      row-gap: 26px;
+      column-gap: 26px;
+    }
 
     .card {
       box-sizing: border-box;
@@ -200,46 +216,85 @@ main {
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
-
-      &:nth-child(3),
-      &:nth-child(4) {
-        height: 155px;
+      @media (min-width: 1200px) {
+        width: 270px;
+        height: 254px;
       }
 
-      &:last-child {
-        width: 300px;
-        height: 86px;
+      @media (max-width: 1200px) {
+        &:nth-child(3),
+        &:nth-child(4) {
+          height: 155px;
+        }
 
-        flex-direction: row;
-        align-items: center;
+        &:last-child {
+          width: 300px;
+          height: 86px;
 
-        padding-left: 45px;
-        padding-right: 47px;
+          flex-direction: row;
+          align-items: center;
 
-        .text_block {
-          width: 154px;
-          text-align: left;
+          padding-left: 45px;
+          padding-right: 47px;
+
+          .text_block {
+            width: 154px;
+            text-align: left;
+          }
         }
       }
 
       h4 {
         font-size: 12px;
         max-width: 128px;
+        @media (min-width: 1200px) {
+          font-size: 16px;
+          max-width: 260px;
+        }
       }
 
       p {
         font-size: 9px;
+        @media (min-width: 1200px) {
+          font-size: 13px;
+        }
       }
     }
     .many_practice {
       padding-top: 24px;
       padding-bottom: 20px;
       margin-top: 0;
+      @media (min-width: 1200px) {
+        padding-top: 50px;
+        order: -1;
+        img {
+          width: 58px;
+          height: 58px;
+        }
+        p {
+          width: 200px;
+        }
+      }
     }
     .direct_connection {
       padding-top: 25px;
       padding-bottom: 23px;
       margin-top: 0;
+      @media (min-width: 1200px) {
+        padding-top: 51px;
+        order: 5;
+        img {
+          width: 62px;
+          height: 57px;
+        }
+        h4 {
+          width: 160px;
+        }
+
+        p {
+          width: 140px;
+        }
+      }
       p {
         padding: 0 23px;
       }
@@ -247,6 +302,17 @@ main {
     .simple_statement {
       padding-top: 27px;
       padding-bottom: 10px;
+      @media (min-width: 1200px) {
+        margin-top: 0;
+        padding-top: 48px;
+        padding-bottom: 28px;
+        order: 3;
+
+        img {
+          width: 69px;
+          height: 60px;
+        }
+      }
       h4 {
         max-width: none;
       }
@@ -257,6 +323,19 @@ main {
     .flexible_schedule {
       padding-top: 24px;
       padding-bottom: 10px;
+      @media (min-width: 1200px) {
+        margin-top: 0;
+        padding-top: 40px;
+        padding-bottom: 27px;
+        order: 4;
+        img {
+          width: 71px;
+          height: 71px;
+        }
+        h4 {
+          max-width: 200px;
+        }
+      }
       p {
         padding: 0 17px;
       }
@@ -264,6 +343,22 @@ main {
     .modern_techniques {
       padding-top: 25px;
       padding-bottom: 19px;
+      @media (min-width: 1200px) {
+        padding-top: 50px;
+        padding-bottom: 26px;
+        order: 2;
+        margin-top: 0;
+        img {
+          width: 58px;
+          height: 58px;
+        }
+        h4 {
+          width: 200px;
+        }
+        p {
+          width: 240px;
+        }
+      }
       h4 {
         max-width: none;
       }
@@ -274,6 +369,46 @@ main {
     .flexible_payment {
       padding-top: 22px;
       padding-bottom: 15px;
+      @media (min-width: 1200px) {
+        margin-top: 0;
+        padding-top: 50px;
+        order: 5;
+        img {
+          width: 58px;
+          height: 58px;
+        }
+        p {
+          width: 200px;
+        }
+      }
+      h4 {
+        max-width: none;
+      }
+      p {
+        padding: 0 12px;
+      }
+    }
+    .fast_and_easy_return {
+      @media (min-width: 1200px) {
+        margin-top: 0;
+        padding-top: 48px;
+        padding-bottom: 31px;
+        order: 7;
+        text-align: center;
+        img {
+          width: 58px;
+          height: 58px;
+        }
+        h4 {
+          width: 170px;
+          margin: 0 auto;
+        }
+        p {
+          margin-top: 10px;
+          width: 200px;
+          text-align: center;
+        }
+      }
       h4 {
         max-width: none;
       }
@@ -286,24 +421,98 @@ main {
 
 .tuition_fees {
   margin-top: 39px;
+  @media (min-width: 1200px) {
+    margin-top: 55px;
+  }
+
   h2 {
     font-size: 22px;
     text-align: center;
+    @media (min-width: 1200px) {
+      font-size: 46px;
+      font-weight: 400;
+    }
   }
   .banner_blocks {
     margin-top: 28px;
     text-align: center;
+    width: 1160px;
+    margin: 0 auto;
+    @media (min-width: 1200px) {
+      margin-top: 50px;
+    }
 
-    .banner {
-      margin: 0 auto;
-      width: 248px;
-      p {
-        padding-top: 12px;
-        font-size: 12px;
-        line-height: 17px;
+    .banner_block_1 {
+      @media (min-width: 1200px) {
+        display: flex;
+        width: 1160px;
+        margin: 0 auto;
+        justify-content: space-between;
+        :nth-child(1).banner {
+          align-items: center;
+          width: 420px;
+          text-align: left;
+
+          img {
+            width: 61px;
+            height: 61px;
+            /* margin-right: 29px; */
+          }
+          p {
+            font-size: 16px;
+            padding-top: 0;
+          }
+        }
+        :nth-child(2).banner {
+          margin-top: 0;
+          width: 295px;
+          img {
+            width: 59px;
+            height: 59px;
+            /* margin-right: 20px; */
+          }
+          p {
+            padding-top: 0;
+            text-align: left;
+            font-size: 16px;
+          }
+        }
+        :nth-child(3).banner {
+          width: 398px;
+          img {
+            width: 48px;
+            height: 55px;
+            /* margin-right: 26px; */
+          }
+          p {
+            padding-top: 0;
+            text-align: left;
+            font-size: 16px;
+          }
+        }
       }
-      &:not(:first-child) {
-        margin-top: 21px;
+      .banner {
+        margin: 0 auto;
+        width: 248px;
+        @media (min-width: 1200px) {
+          display: inherit;
+          margin: 0;
+        }
+
+        p {
+          padding-top: 12px;
+          font-size: 12px;
+          line-height: 17px;
+          /* @media (min-width:1200px) {
+            
+          } */
+        }
+        &:not(:first-child) {
+          margin-top: 21px;
+          @media (min-width: 1200px) {
+            margin-top: 0px;
+          }
+        }
       }
     }
     .banner_block_2 {
@@ -317,16 +526,42 @@ main {
       border-radius: 30px;
 
       background: var(--color7_bg_learn_card);
-
-      p {
-        font-size: 12px;
-        line-height: 22px;
-        margin: 21px 17px 0;
+      @media (min-width: 1200px) {
+        display: flex;
+        width: 1160px;
+        margin-top: 54px;
+        padding-top: 65px;
+        padding-bottom: 43px;
+        padding-left: 54px;
       }
-      .start_learning {
-        width: 257px;
-        height: 60px;
-        margin-top: 13px;
+      .speaker {
+        @media (min-width: 1200px) {
+          width: 91px;
+          height: 91px;
+        }
+      }
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 22px;
+      margin: 21px 17px 0;
+      @media (min-width: 1200px) {
+        width: 620px;
+        text-align: left;
+        font-size: 17px;
+        margin: 0;
+        margin-left: 20px;
+      }
+    }
+    .start_learning {
+      width: 257px;
+      height: 60px;
+      margin-top: 13px;
+      @media (min-width:1200px) {
+        width: 311px;
+        height: 70px;
+        font-size: 20px;
       }
     }
   }
