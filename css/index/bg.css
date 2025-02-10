@@ -10,6 +10,8 @@ body {
   position: absolute;
   z-index: -1;
   top: 0;
+  left:50%;
+  transform:translate(-50%, 0px);
 }
 
 .bg_canvas {
@@ -18,6 +20,9 @@ body {
   width: 1160px;
   height: 3590px;
   overflow: hidden;
+
+  left:50%;
+  transform:translate(-50%, 0px);
 }
 .circle {
   position: absolute;
