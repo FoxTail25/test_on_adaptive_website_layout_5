@@ -6,9 +6,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Подключение шрифтов -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet"> -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sofia+Sans:ital@1&display=swap"
 		rel="stylesheet">
 	<!--  -->
 
@@ -24,6 +30,13 @@
 		<div class="container">
 			<div class="header">
 				<div class="logo"></div>
+				<nav class="desctop">
+					<a href="#">Чему вы научитесь</a>
+					<a href="#">Процесс обучения</a>
+					<a href="#">Стоимость</a>
+					<a href="#">Контакты</a>
+				</nav>
+				<a href="#" class="desctop_reg">Регистрация</a>
 				<button class="sing_in">&#8594; Войти</button>
 				<button id="header_menu_btn" class="mobil_menu_ico"></button>
 			</div>
@@ -66,19 +79,25 @@
 		</div>
 	</header>
 	<main>
-		<div class="container">
+		<div class="container max-width">
 			<section class="width_technology">
 				<h2>
 					Какие технологии вы <br> изучите:
 				</h2>
-				<div class="technology_list">
-					<span class="tlist_item blue">Язык программирования Pyton</span>
-					<span class="tlist_item orang">Сети</span>
-					<span class="tlist_item red">Базы данных</span>
-					<span class="tlist_item green">Фреймворки Flask и Django</span>
-					<span class="tlist_item light_blue">Отладка и тестирование</span>
-					<span class="tlist_item gray">Docker</span>
-					<span class="tlist_item lilac">Git</span>
+				<div class="techno_block">
+					<img src="./img/learn_techno.png" alt="">
+					<div class="right_block">
+						<div class="technology_list">
+							<span class="tlist_item blue">Язык программирования Pyton</span>
+							<span class="tlist_item orang">Сети</span>
+							<span class="tlist_item red">Базы данных</span>
+							<span class="tlist_item green">Фреймворки Flask и Django</span>
+							<span class="tlist_item light_blue">Отладка и тестирование</span>
+							<span class="tlist_item gray">Docker</span>
+							<span class="tlist_item lilac">Git</span>
+						</div>
+						<span class="minimum">Это необходимый минимум для современного backend-разработчика</span>
+					</div>
 				</div>
 			</section>
 			<section class="learn_in_YtYt">
@@ -263,7 +282,7 @@
 
 	<div class="main_bg">
 		<div class="bg_canvas" id="bg_canvas_id">
-			<div class="up_group">
+			<div class="up_group_mobil">
 				<div class="circle up_1">
 					<div class="circle up_2">
 						<div class="circle up_3">
@@ -274,6 +293,9 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="up_group_desctop">
+
 			</div>
 			<div class="down_group">
 				<div class="circle down_1">

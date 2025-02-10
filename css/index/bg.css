@@ -33,7 +33,7 @@ body {
   border-top: 2px solid #fff;
   border-left: 2px solid #fff;
 }
-.up_group {
+.up_group_mobil {
   position: absolute;
   width: inherit;
   height: 50%;
@@ -41,36 +41,81 @@ body {
   left: -5px;
   box-sizing: border-box;
 
+  @media (min-width:1200px) {
+    /* display: none; */
+    left:365px;
+    top:-555px;
+  }
+
   .up_1 {
     width: 1100px;
     height: 1075px;
     background: radial-gradient(circle, #f1f4f7 50%, #f0f4f9 100%);
     border: none;
+    @media (min-width:1200px) {
+      width: 1705px;
+      height: 1705px;
+      background: radial-gradient(circle, #f1f4f7 40%, #ffffff 60%);
+    }
+
     .up_2 {
       width: 797px;
       height: 779px;
       background: radial-gradient(circle, #ebf3f7 50%, #fbfcfd 70%);
-
       top:50.6%;
+       @media (min-width:1200px) {
+              width: 1236px;
+              height: 1236px;
+            }
       .up_3 {
         width: 585px;
         height: 572px;
         background: radial-gradient(circle, #eef4f7 50%, #f6f9fb 70%);
+         @media (min-width:1200px) {
+              width: 907px;
+              height: 907px;
+            }
         .up_4 {
           width: 404px;
           height: 395px;
           background: radial-gradient(circle, #ebf3f7 50%, #fbfcfd 70%);
+            @media (min-width:1200px) {
+              width: 627px;
+              height: 627px;
+            }
           .up_5 {
             width: 257px;
             height: 251px;
             background: radial-gradient(circle, #eff6f9 50%, #f5fafb 70%);
             top:48.4%;
+            @media (min-width:1200px) {
+              width: 399px;
+              height: 399px;
+            }
           }
         }
       }
     }
   }
 }
+/* .up_group_desctop {
+  display: none;
+    position: absolute;
+  width: inherit;
+  height: 50%;
+  top: -11%;
+  left: -5px;
+  box-sizing: border-box;
+
+  @media (min-width:1200px) {
+    display: block;
+  }
+  .up_desc_1 {
+    width: 399px;
+    height: 399px;
+    background: red;
+  }
+} */
 .down_group {
   position: absolute;
   width: inherit;
