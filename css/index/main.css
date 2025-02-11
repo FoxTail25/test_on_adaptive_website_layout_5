@@ -434,11 +434,11 @@ main {
     }
   }
   .banner_blocks {
-    margin-top: 28px;
     text-align: center;
-    width: 1160px;
     margin: 0 auto;
+    margin-top: 28px;
     @media (min-width: 1200px) {
+      width: 1160px;
       margin-top: 50px;
     }
 
