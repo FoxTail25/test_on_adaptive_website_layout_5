@@ -24,7 +24,7 @@ body {
   left:50%;
   transform:translate(-50%, 0px);
   @media (min-width:1200px) {
-    height: 3190px;
+    height: 2810px;
     
   }
 }
@@ -48,7 +48,8 @@ body {
   @media (min-width:1200px) {
     /* display: none; */
     left:365px;
-    top:-555px;
+    top:-360px;
+    /* background:#fff; */
   }
 
   .up_1 {
@@ -57,9 +58,9 @@ body {
     background: radial-gradient(circle, #f1f4f7 50%, #f0f4f9 100%);
     border: none;
     @media (min-width:1200px) {
-      width: 1705px;
+      width: 2405px;
       height: 1705px;
-      background: radial-gradient(circle, #f1f4f7 40%, #ffffff 60%);
+      background: radial-gradient(circle, #f1f4f7 40%, #ffffff 50%);
     }
 
     .up_2 {
@@ -112,35 +113,54 @@ body {
   box-sizing: border-box;
   border: none;
   @media (min-width:1200px) {
-    bottom: 535px;
+    bottom: 330px;
+
   }
 
   .down_1 {
     width: 2011px;
     height: 2000px;
-    background: red;
     background: radial-gradient(circle, #eaf3f6 50%, #f9f9fb 60%);
-
+    
+    @media (min-width:1200px) {
+      background: transparent;
+            }
     .down_2 {
       width: 1458px;
       height: 1426px;
-      background: orange;
       background: radial-gradient(circle, #eaf3f6 50%, #f4f7f9 70%);
+
+       @media (min-width:1200px) {
+              width: 1950px;
+              height: 1950px;
+            }
 
       .down_3 {
         width: 1070px;
         height: 1046px;
-        background: yellow;
         background: radial-gradient(circle, #eaf4f8 50%, #f5f9fa 70%);
+
+         @media (min-width:1200px) {
+              width: 1458px;
+              height: 1458px;
+            }
 
         .down_4 {
           width: 739px;
           height: 723px;
           background: radial-gradient(circle, #ebf5f8 50%, #f6fafb 70%);
+           @media (min-width:1200px) {
+              width: 1007px;
+              height: 1007px;
+            }
           .down_5 {
             width: 471px;
             height: 460px;
-            background: radial-gradient(circle, #f2f7f9 50%, #f0f6f9 70%);
+            background: radial-gradient(circle, #f2f7f9 50%, #f6fafb 70%);
+            @media (min-width:1200px) {
+              width: 641px;
+              height: 641px;
+            }
           }
         }
       }

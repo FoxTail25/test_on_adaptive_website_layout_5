@@ -249,7 +249,8 @@ main {
         max-width: 128px;
         @media (min-width: 1200px) {
           font-size: 16px;
-          max-width: 260px;
+          max-width: 250px;
+          font-weight: 400;
         }
       }
 
@@ -270,6 +271,9 @@ main {
         img {
           width: 58px;
           height: 58px;
+        }
+        h4 {
+          width: 120px;
         }
         p {
           width: 200px;
@@ -312,9 +316,12 @@ main {
           width: 69px;
           height: 60px;
         }
+        p {
+          width: 170px;
+        }
       }
       h4 {
-        max-width: none;
+        max-width: 220px;
       }
       p {
         padding: 0 7px;
@@ -333,7 +340,10 @@ main {
           height: 71px;
         }
         h4 {
-          max-width: 200px;
+          max-width: 180px;
+        }
+        p {
+          width: 150px;
         }
       }
       p {
@@ -378,11 +388,11 @@ main {
           height: 58px;
         }
         p {
-          width: 200px;
+          max-width: 180px;
         }
       }
       h4 {
-        max-width: none;
+        max-width: 130px;
       }
       p {
         padding: 0 12px;
@@ -533,6 +543,7 @@ main {
         padding-top: 65px;
         padding-bottom: 43px;
         padding-left: 54px;
+        box-sizing:border-box;
       }
       .speaker {
         @media (min-width: 1200px) {
